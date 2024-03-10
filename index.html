@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>AnuragPortfolio</title>
+  </head>
+  <body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="radio" name="color" id="color-1">
+    <input type="radio" name="color" id="color-2">
+    <input type="radio" name="color" id="color-3">
+    <input type="radio" name="color" id="color-4">
+    <input type="radio" name="color" id="color-5">
+    <input type="radio" name="color" id="color-6">
+    <input type="radio" name="color" id="color-7">
+    <input type="radio" name="color" id="color-8">
+    <input type="radio" name="color" id="color-9">
+    <input type="radio" name="color" id="color-10">
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day-night" />
+
+    <div class="style__switcher">
+      <label for="toggler" class="style__switcher-toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </label>
+
+      <label for="day-night" class="style__switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+
+      <h3 class="style__switcher-title">Theme Colors</h3>
+      <div class="style__switcher-colors">
+         <label for="color-1" class="color-1 color"></label>
+         <label for="color-2" class="color-2 color"></label>
+         <label for="color-3" class="color-3 color"></label>
+         <label for="color-4" class="color-4 color"></label>
+         <label for="color-5" class="color-5 color"></label>
+         <label for="color-6" class="color-6 color"></label>
+         <label for="color-7" class="color-7 color"></label>
+         <label for="color-8" class="color-8 color"></label>
+         <label for="color-9" class="color-9 color"></label>
+         <label for="color-10" class="color-10 color"></label>
+      </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">CreativeAG</i></a>
+
+        <input type="checkbox" id="nav-toggler">
+        <label for="nav-toggler" class="nav__toggle">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">Experience</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#works" class="nav__link">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+
+        
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__small">Hello</span>
+            <h1 class="home__title"><span >I'm </span ><span id="Anurag">Anurag</span> <br />a <span class="home__text"></span></h1>
+            <p class="home__description">
+              I am enthusiastic about exploring opportunities to gain hands-on experience through internships, and research projects. Eager to collaborate with industry professionals and learn from their expertise to further develop my skills.
+            </p>
+            <div class="home__btns">
+              <a href="#contact" class="btn">Hire Me</a>
+              <a href="#works" class="btn btn--transparent">Portfolio</a>
+            </div>
+          </div>
+          <div class="home__img-wrapper">
+            <img src="./img/profile1.png" alt="" class="home__img">
+          </div>
+        </div>
+  
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about" id="about">
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <img src="./img/about1.png" alt="" class="about__img">
+            <img src="./img/about1.png" alt="" class="about__img">
+            <img src="./img/about1.png" alt="" class="about__img">
+            <img src="./img/about1.png" alt="" class="about__img">
+          </div>
+          <div class="about__content">
+            <h2 class="section__title" data-title="Who am I?">
+              I'm Anurag Ghosh, a visual UI/UX Designer, Web Developer, love coding and machine learning.
+            </h2>
+            <p class="about__description">
+              Motivated and dedicated engineering student with a strong passion for Computer Science and Engineering domain. Currently pursuing a B.Tech degree in Computer Science engineering with a focus on emerging technologies in the field of engineering . Eager to apply theoretical knowledge and gain practical experience in the field to contribute to real-world engineering projects.
+            </p>
+            <ul class="about__data grid">
+              <li class="data__item">
+                <h3 class="data__title">Name:</h3>
+                <span class="data__description">Anurag Ghosh</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Age:</h3>
+                <span class="data__description">20 Years</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">From:</h3>
+                <span class="data__description">West Bengal,India</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Email</h3>
+                <span class="data__description about__link">anurag@email.com</span>
+              </li>
+            </ul>
+
+            <div class="about__bottom">
+              <a href="./AnuragCVfinal.pdf" class="btn" target="_blank">Download CV</a>
+
+              <div class="about__social-links">
+                <a href="https://github.com/Anurag-ghosh-12" class="about__social-link" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="" class="about__social-link" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-square-facebook"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/anurag-ghosh-a40326244/" class="about__social-link" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section reveal" id="qualification">
+        <h2 class="section__title title-center" data-title="My Journey">
+          Qualification
+        </h2>
+
+        <div class="resume__container container grid">
+          <div class="resume__group">
+            <h3 class="resume__heading">Education</h3>
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">B.Tech in Computer Science and Technology</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Indian Institute of Engineering Science 
+                      and Technology, Shibpur</h3>
+                    <span class="resume__date">2022-PRESENT</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Pursuing B.Tech in Computer Science and Technology
+                    CGPA: 9.71<br>
+                    Semester-wise GPA: <br><br>1st Semester: 9.13<br>2nd Semester: 10<br>3rd Semester:10.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Vivekananda Mission School,Joka</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">12th Grade (ISC)</h3>
+                    <span class="resume__date">2022</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Score: 98.50% <br><br>
+                    Awarded INSPIRE SHE Scholarship for excellent performance in 12th Board Examinations
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Vivekananda Mission School,Joka</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">10th Grade (ICSE)</h3>
+                    <span class="resume__date">2020</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Score:98.40%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__group">
+            <h3 class="resume__heading">Experience</h3>
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Internship on Data Science by CODSOFT</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Virtual Internship Program on Data 
+                      Science</h3>
+                    <span class="resume__date">2023</span>
+                  </div>
+
+                  <p class="resume__description">
+During my internship, I explored data science by building machine learning models. I developed a binary classification model to predict passenger survival on the Titanic, considering factors like age, gender, and social class. Additionally, I delved into feature engineering to create a multi-class classification model for iris flower classification.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">BUSINESS ANALYST 
+                    EXPERIENCE CERTIFICATION</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Finlatics</h3>
+                    <span class="resume__date">2023</span>
+                  </div>
+
+                  <p class="resume__description">
+                    As a Business Analyst, utilized MECE problem solving, leveraging MS Excel and Power BI for effective case-based project solutions
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Minor Project</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">IIEST,Shibpur</h3>
+                    <span class="resume__date">2023-PRSESNT</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Developed automated timetable generator in Java, 
+                    employing OOP principles.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title title-center" data-title="Services">
+          What I do for you
+        </h2>
+
+        <div class="services__container container grid reveal">
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+            <h3 class="services__title">UI/UX Design</h3>
+            <p class="services__description">
+              Learning UI/UX design, eager to provide services tailored to your needs, growing skills with each project.
+            </p>
+            <span class="service__no">01</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-laptop services__icon"></i>
+            <h3 class="services__title">Web Development</h3>
+            <p class="services__description">
+              Learning web development, eager to provide services tailored to your needs.Providing quality work to clients and companies.
+            </p>
+            <span class="service__no">02</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-chart-area services__icon"></i>
+            <h3 class="services__title">Research and Analytics </h3>
+            <p class="services__description">
+              Delving into data, crafting insights,exploring vast datasets, extracting valuable insights—Research and analytics writing, illuminating pathways for informed decision-making.
+            </p>
+            <span class="service__no">03</span>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section reveal">
+        <h2 class="section__title title-center" data-title="My Talent">
+          Professional Skills
+        </h2>
+
+        <div class="skills__container container grid">
+          <div class="skills_item">
+            <div class="skills_titles">
+              <h3 class="skills__name">Java Programming</h3>
+                <span class="skills__no">90%</span>
+            </div>
+
+            <p class="skills__description">
+              Skilled in Java programming, with expertise in object-oriented programming principles, data structures, algorithms, and application development.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 90%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills_item">
+            <div class="skills_titles">
+              <h3 class="skills__name">HTML,CSS</h3>
+                <span class="skills__no">95%</span>
+            </div>
+
+            <p class="skills__description">
+              Proficient in HTML and CSS, adept at creating responsive and visually appealing web designs, including layouts, styling, and interactive elements.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 95%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills_item">
+            <div class="skills_titles">
+              <h3 class="skills__name">C++ Programming</h3>
+                <span class="skills__no">90%</span>
+            </div>
+
+            <p class="skills__description">
+              Skilled in C++ programming, with expertise in object-oriented programming, data structures, algorithms, and software development methodologies.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 90%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills_item">
+            <div class="skills_titles">
+              <h3 class="skills__name">Data Science using Python</h3>
+                <span class="skills__no">70%</span>
+            </div>
+
+            <p class="skills__description">
+              Familiar with Python for data science, including basics of data analysis, visualization, and machine learning algorithms. Seeking to deepen expertise.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 70%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills_item">
+            <div class="skills_titles">
+              <h3 class="skills__name">PowerBI</h3>
+                <span class="skills__no">60%</span>
+            </div>
+
+            <p class="skills__description">
+              Experienced in Power BI for creating visually appealing and interactive dashboards to effectively present data insights and drive decision-making processes.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 60%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills_item">
+            <div class="skills_titles">
+              <h3 class="skills__name">JavaScript, React</h3>
+                <span class="skills__no">50%</span>
+            </div>
+
+            <p class="skills__description">
+              Currently learning JavaScript to enhance web development skills and create dynamic and interactive web applications.Also exploring React for web development projects.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 50%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="works section reveal" id="works">
+        <h2 class="section__title title-center" data-title="My Portfolio">
+          Recent Works
+        </h2>
+        <div class="work__container container grid">
+          <div class="work__card">
+            <img src="./img/project-img-1.jpg" alt="" class="work__img">
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+                <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="./img/project-img-2a.jpg" alt="" class="work__img">
+            <div class="work__details">
+              <h3 class="work__title">TimeTable Generator</h3>
+                <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="./img/project-img-3a.jpg" alt="" class="work__img">
+            <div class="work__details">
+              <h3 class="work__title">Data Structures and Algorithm</h3>
+                <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="./img/project-img-4a.jpg" alt="" class="work__img">
+            <div class="work__details">
+              <h3 class="work__title">Titanic Dataset</h3>
+                <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="./img/project-img-5a.jpg" alt="" class="work__img">
+            <div class="work__details">
+              <h3 class="work__title">Iris Datset</h3>
+                <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="./img/project-img-6.jpg" alt="" class="work__img">
+            <div class="work__details">
+              <h3 class="work__title">College Tour Form</h3>
+                <span class="work__description"><a href="https://undischarged-waist.000webhostapp.com/index.php" target="_blank" style="color:white;">Click to see the form and enter data.</a></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIALS ====================-->
+      <section class="testimonials section">
+        <h2 class="section__title title-center" data-title="Testimonials">
+          What My Clients Say
+        </h2>
+
+        <div class="testimonials__container container grid">
+          <div class="testimonials__item">
+            <p class="testimonials__description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel laboriosam velit natus at eveniet. Ullam exercitationem aliquam tempora labore veritatis natus maiores velit temporibus vitae, laboriosam vel fugit iure incidunt!
+            </p>
+            <div class="testimonials__data">
+              <img src="./img/testimonial-1.jpg" alt="" class="testimonials__img">
+              <div>
+               
+                <h3 class="testimonials__name">John Wilson </h3>
+                  <span class="testimonials__identity">Seattle, Washington</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonials__item">
+            <p class="testimonials__description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel laboriosam velit natus at eveniet. Ullam exercitationem aliquam tempora labore veritatis natus maiores velit temporibus vitae, laboriosam vel fugit iure incidunt!
+            </p>
+            <div class="testimonials__data">
+              <img src="./img/testimonial-2.jpg" alt="" class="testimonials__img">
+              <div>
+               
+                <h3 class="testimonials__name">Tony Stark </h3>
+                  <span class="testimonials__identity">United States</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="Get in Touch">
+          Contact Me
+        </h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__details">
+            <div class="contact__item">
+              <i class="fa-solid fa-phone contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Call Us</h3>
+                <span class="contact__data">+123-54-128</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email Us</h3>
+                <span class="contact__data">anurag@help.com</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-location-dot contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Address</h3>
+                <span class="contact__data">Kolkata,West Bengal,India</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="https://formsubmit.co/495c3570ddaefb33388d437cbca1a5db" class="contact__form" method="POST">
+            <div class="form__group">
+              <div class="form__input">
+                <input type="text" placeholder= "Name" name="Name" class="input__control" />
+              </div>
+
+              <div class="form__input">
+                <input type="email" placeholder= "Email" name="Email"class="input__control" />
+              </div>
+            </div>
+
+            <div class="form__input">
+              <input type="text" placeholder= "Subject" name="Subject" class="input__control" />
+            </div>
+
+            <div class="form__input">
+              <textarea name="" id="" placeholder="Message" name="Message" cols="30" rows="10" class="input__control textarea" ></textarea>
+            </div>
+
+            <button class="btn contact__btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <p class="footer__copyright">
+          &copy; 2024 Anurag. All Rights Reserved
+        </p>
+
+        <div class="footer__social-links">
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/anurag-ghosh-a40326244/" class="footer__social-link" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
